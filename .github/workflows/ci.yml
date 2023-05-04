@@ -14,7 +14,7 @@ jobs:
     - name: Install thumbv7em-none-eabihf
       run: rustup target add thumbv7em-none-eabihf
 
-    - name: Set up Rust nightly
+    - name: Rustup
       run: rustup component add rust-src --toolchain nightly-x86_64-unknown-linux-gnu
     
     - name: Build
